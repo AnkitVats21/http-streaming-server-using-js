@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container">
+    <h2>HTTP Video Streaming</h2>
+    <!-- <div class="position-absolute top-50 start-50 translate-middle"> -->
+      <video class="center" id="videoPlayer" width="650" controls autoplay>
+        <source id="videosrc" src="/video/1" type="video/mp4" />
+      </video>
+    <!-- </div> -->
+    <i>Big Buck Bunny</i>
+    <p id="video-id">1</p>
+  </div>
+
+
+
+  <div class="container">
+
+    <div class="position-absolute bottom-0 start-50 translate-middle-x">
+      <button type="button" class="btn btn-warning" id="prev-button">Prev</button>
+      <button type="button" class="btn btn-success" id="next-button">Next</button>
+    </div>
+
+  </div>
+
+
+</body>
+<script src="/js"></script>
+
+</html>
